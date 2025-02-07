@@ -2,3 +2,38 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Maya's Portfolio"
 theme = "PaperMod"
+
+[params]
+  author = "Maya Kfir"
+  description = "Hugo website to showcase my work, resume, and projects."
+  defaultTheme = "auto"
+  ShowBreadCrumbs = true
+  ShowToc = true
+  TocOpen = false
+
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Résumé"
+    url = "/resume/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
